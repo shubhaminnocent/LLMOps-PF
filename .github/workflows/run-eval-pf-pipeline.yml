@@ -9,8 +9,8 @@ env:
   GROUP: ${{secrets.GROUP}}
   WORKSPACE: ${{secrets.WORKSPACE}}
   SUBSCRIPTION: ${{secrets.SUBSCRIPTION}}
-  RUN_NAME: web_classification_variant_1_20230816_215600_mg
-  EVAL_RUN_NAME: classification_accuracy_eval_default_20230821_111809_mg
+  RUN_NAME: web_classification_variant_1_20230816_215600
+  EVAL_RUN_NAME: classification_accuracy_eval_default_20230821_111809
 
 jobs:
   login-and-run-and-evalpf:
