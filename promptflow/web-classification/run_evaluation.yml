@@ -9,10 +9,3 @@ column_mapping:
 # define cloud resource::
 runtime: test_online
 
-connections:
-  classify_with_llm:
-    connection: mg-demo-aoai
-    deployment_name: gpt-35-turbo
-  summarize_text_content:
-    connection: mg-demo-aoai
-    deployment_name: gpt-35-turbo
