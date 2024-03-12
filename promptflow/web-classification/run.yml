@@ -3,7 +3,7 @@ flow: .
 data: data.jsonl
 
 # define cloud resource
-runtime: pf-runetime2
+runtime: test-online
 
 connections:
   classify_with_llm:
