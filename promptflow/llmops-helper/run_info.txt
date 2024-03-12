@@ -8,7 +8,7 @@
     "description": null,
     "tags": {},
     "properties": {
-        "azureml.promptflow.runtime_name": "abe",
+        "azureml.promptflow.runtime_name": "pf-runtime",
         "azureml.promptflow.runtime_version": "20230808.v1",
         "azureml.promptflow.definition_file_name": "flow.dag.yaml",
         "azureml.promptflow.node_variant": "${summarize_text_content.variant_1}",
