@@ -7,7 +7,7 @@ column_mapping:
   prediction: ${run.outputs.category}
 
 # define cloud resource::
-runtime: pf-runetime2
+runtime: test-online
 
 connections:
   classify_with_llm:
