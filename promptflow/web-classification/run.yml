@@ -3,12 +3,12 @@ flow: .
 data: data.jsonl
 
 # define cloud resource
-runtime: pf-runtime
+runtime: test-online
 
 connections:
   classify_with_llm:
     connection: mg-demo-aoai
-    deployment_name: gpt-35-turbo-v0301
+    deployment_name: gpt-35-turbo
   summarize_text_content:
     connection: mg-demo-aoai
-    deployment_name: gpt-35-turbo-v0301
+    deployment_name: gpt-35-turbo
