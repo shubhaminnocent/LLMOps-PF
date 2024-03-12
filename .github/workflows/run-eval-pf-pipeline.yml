@@ -34,7 +34,7 @@ jobs:
       run: pip install -r promptflow/web-classification/requirements.txt
     - name: Run promptflow
       run: |
-        pfazure run create -f promptflow/web-classification/run.yml --subscription ${{env.SUBSCRIPTION}} -g ${{env.GROUP}} -w ${{env.WORKSPACE}} --stream > promptflow/llmops-helper/run_info.txt
+        pfazure run create -f promptflow/web-classification/run.yml --subscription ${{env.SUBSCRIPTION}} -g ${{env.GROUP}} -w ${{env.WORKSPACE}} --stream 2>&1 | tee promptflow/llmops-helper/run_info.txt || true
         cat promptflow/llmops-helper/run_info.txt
     - name: Set run name
       run: |
